@@ -1,0 +1,94 @@
+.bg-container {
+  height: 70px;
+  width: 30vw;
+  background-color: gray;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: blue;
+  margin-bottom: 0px;
+}
+
+.remove-button {
+  height: 36px;
+  margin: 6px;
+  width: 70px;
+  background-color: blueviolet;
+  color: white;
+  border: 0px none white;
+  border-radius: 3px;
+  margin-left: 45px;
+}
+.pop-container {
+  background-color: blueviolet;
+  height: 150px;
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popup-button {
+  height: 36px;
+  margin: 6px;
+  width: 70px;
+  background-color: gray;
+  color: white;
+  border: 0px none white;
+  border-radius: 3px;
+  margin-left: 45px;
+}
+.paragraph {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 650px) {
+  .bg-container {
+    width: 75vw;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 950px) {
+  .bg-container {
+    width: 60vw;
+  }
+}
+
+.check-box {
+  height: 30px;
+  width: 50px;
+}
+
+.icon {
+  color: white;
+  height: 30px;
+  width: 30px;
+  margin-left: 13px;
+  background-color: transparent;
+}
+.button2 {
+  background-color: transparent;
+  border: 0px;
+}
+
+.editable {
+  background-image: linear-gradient(to left, violet, purple);
+  height: 150px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

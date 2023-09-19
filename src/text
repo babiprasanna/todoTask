@@ -1,0 +1,5 @@
+ <i className={`fa-solid fa-angle-down ${
+                              activeBlocks[i] ? 'rotate' : ''
+                            }`}
+                            onClick={() => toggleBlock(i)}
+                          ></i>

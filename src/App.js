@@ -1,16 +1,15 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import FormContainer from './components/FormContainer'
-import WebGame from './components/WebGame'
+import Header from './components/Header'
+import HomePage from './components/HomePage'
+import Footer from './components/footer'
 import './App.css'
 
-// i take tow components here one is FormContainer and  WebGame i used react-router-dom concept here
+// i take tow three functions here
 const App = () => (
-  <BrowserRouter>
-    <Routes>
-      <Route exact path="/" element={<FormContainer />} />
-      <Route exact path="/web-game" element={<WebGame />} />
-    </Routes>
-  </BrowserRouter>
+  <>
+    <Header />
+    <HomePage />
+    <Footer />
+  </>
 )
 
 export default App

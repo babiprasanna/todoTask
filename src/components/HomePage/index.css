@@ -1,24 +1,7 @@
-.leader-board-container {
-  height: 90px;
-  width: 100%;
-  background-color: rgb(59, 59, 220);
-  color: azure;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  flex-wrap: wrap;
-}
-
-.text-fonts {
-  font-size: 20px;
-  color: white;
-}
-
 .bg-container {
-  background-color: rgb(59, 59, 220);
+  background-image: linear-gradient(to right, #75e6da, lightblue, #d4f1f4);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 30px;
@@ -26,17 +9,19 @@
 }
 
 .text-part {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 14px;
-  text-align: center;
 }
 
 .home-heading {
-  color: aliceblue;
-  font-family: 'Lato';
+  color: blue;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sub-heading {
+  color: black;
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -56,7 +41,7 @@
 }
 
 .form-container {
-  background-color: azure;
+  background-color: #d4f1f4;
   border-radius: 30px;
   padding: 40px;
   margin: 14px;
@@ -68,16 +53,25 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.color-box {
-  height: 150px;
-  width: 150px;
-  background-color: green;
-  border: 1px solid white;
-  border-radius: 20px;
+.check {
+  background-color: lightblue;
+  color: lightblue;
 }
 
-.error {
-  color: red;
-  font-size: 25px;
+.align-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.paragraph {
+  color: black;
+  font-size: 14px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.icon-img {
+  height: 30px;
+  width: 30px;
+  color: blue;
 }
